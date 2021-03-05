@@ -1,24 +1,7 @@
-# README
+action cableの勉強。 deviseによるユーザ認証、Roomありパターン。
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+参考記事 https://qiita.com/rhiroe/items/4c4e983e34a44c5ace27
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+問題点
+turbolinksを無効にしないとroom_channel.rbでparams['room']が取得できない。
+同様の障害が参考記事のコメントに散見。
